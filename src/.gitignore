@@ -1,2 +1,4 @@
-cpwresources.c
 resources.c
+cpwresources.c
+cpwclient
+gschemas.compiled

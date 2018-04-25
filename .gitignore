@@ -3,6 +3,7 @@ Makefile
 config.h
 config.log
 config.status
+*o
 
 # http://www.gnu.org/software/automake
 
