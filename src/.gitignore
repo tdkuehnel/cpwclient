@@ -2,3 +2,4 @@ resources.c
 cpwresources.c
 cpwclient
 gschemas.compiled
+org.gtk.cpwclient.gschema.valid

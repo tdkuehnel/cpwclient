@@ -4,6 +4,7 @@ config.h
 config.log
 config.status
 *o
+cpwclient-?.?.tar.gz
 
 # http://www.gnu.org/software/automake
 

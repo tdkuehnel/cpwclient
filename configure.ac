@@ -17,6 +17,8 @@ PKG_CHECK_MODULES([GMODULE_EXPORT],[
   gmodule-export-2.0
 ])
 
+GLIB_GSETTINGS
+
 AC_CONFIG_FILES([
  Makefile
  src/Makefile

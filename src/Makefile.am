@@ -28,7 +28,7 @@ resources.c: cpwclient.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --sourced
 gsettings_SCHEMAS = 				\
 	org.gtk.cpwclient.gschema.xml
 
-#@GSETTINGS_RULES@
+@GSETTINGS_RULES@
 
 gschemas.compiled: org.gtk.cpwclient.gschema.xml
 	$(GLIB_COMPILE_SCHEMAS) .
