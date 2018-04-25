@@ -1,4 +1,9 @@
 autoreconf --install
 ./configure
 make
-make install
+sudo make install
+
+Actually you need to install cpwclient as root as it uses a gsettings xml schema file
+which needs to be incorporated into the global glib schema stuff in /usr/share/glib-2.0/schemas etc.
+
+
